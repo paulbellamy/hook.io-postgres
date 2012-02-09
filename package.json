@@ -2,12 +2,12 @@
   "authors": [
     "Paul Bellamy <paul.a.bellamy@gmail.com>"
   ],
-  "name": "hookio-postgres",
+  "name": "hook.io-postgres",
   "description": "hook.io hook to interface with a postgres database",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/paulbellamy/hookio-postgres.git"
+    "url": "git://github.com/paulbellamy/hook.io-postgres.git"
   },
   "bin": {
      "hookio-postgres": "./bin/postgres"
