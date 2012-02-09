@@ -1,0 +1,3 @@
+{
+  "database": "pg://brian:1234@localhost/postgres"
+}

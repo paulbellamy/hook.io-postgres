@@ -1,0 +1,26 @@
+{
+  "authors": [
+    "Paul Bellamy <paul.a.bellamy@gmail.com>"
+  ],
+  "name": "hookio-postgres",
+  "description": "hook.io hook to interface with a postgres database",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulbellamy/hookio-postgres.git"
+  },
+  "bin": {
+     "hookio-postgres": "./bin/postgres"
+  },
+  "main" : "lib/postgres",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io": "0.8.x",
+    "colors": "0.5.x",
+    "async": "0.1.x",
+    "pg": "0.6.x"
+  },
+  "devDependencies": {}
+}
