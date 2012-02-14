@@ -1,3 +1,9 @@
 {
-  "database": "pg://brian:1234@localhost/postgres"
+  "database": { 
+    "host": "/var/run/postgresql",
+    "port": 5432,
+    "user": "user",
+    "password": "password",
+    "database": "mydatabase"
+  }
 }

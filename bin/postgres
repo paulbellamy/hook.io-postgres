@@ -5,7 +5,13 @@ var PostgresHook = require('../lib/postgres').PostgresHook;
 var postgres = new PostgresHook({ 
   "name": "the-postgres-hook",
   "debug": true,
-  "database": "pg://localhost/mydatabase"
+  "database": { 
+    "host": "/var/run/postgresql",
+    "port": 5432,
+    "user": "user",
+    "password": "password",
+    "database": "mydatabase"
+  }
 });
 
 postgres.start();
