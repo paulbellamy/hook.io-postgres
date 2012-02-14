@@ -36,14 +36,6 @@ Hook.io Postgres is a client-wrapper around [pg](https://github.com/brianc/node-
 
 ``` js
 {
- "database": "pg://[user:password@]localhost[:port]/mydatabase",
-}
-```
-
-or
-
-``` js
-{
   "database": {
     "host": "/var/run/postgresql",
     "port": 5432,
