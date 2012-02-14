@@ -28,6 +28,8 @@ Hook.io Postgres is a client-wrapper around [pg](https://github.com/brianc/node-
 
 ### Event Emitters
 
+**postgres::connected** *event emitted when the hook is connected to postgres*
+
 **postgres::error** *event emitted when there is an error talking to postgres*
 
 ## Hook config.json data
@@ -36,3 +38,18 @@ Hook.io Postgres is a client-wrapper around [pg](https://github.com/brianc/node-
 {
  "database": "pg://[user:password@]localhost[:port]/mydatabase",
 }
+```
+
+or
+
+``` js
+{
+  "database": {
+    "host": "/var/run/postgresql",
+    "port": 5432,
+    "user": "username",
+    "password": "password",
+    "database": "mydatabase"
+  }
+}
+```
